@@ -41,10 +41,7 @@ When the user opens the document, the reference file calls for the index.html fi
 
 ## How can you use it? 
 
-JohnHammond Premade Proof of Concept Code: https://github.com/JohnHammond/msdt-follina 
-This code can be ran without any additional steps. 
-
-Creating your own exploit. This is a two part process. 
+### Creating your own exploit. This is a two part process. 
 
 Part One: creating the document. 
 1. unzip the microsoft doc
@@ -70,6 +67,9 @@ This is marked in the index_template.html file.
 python3 -m http.server PORT
 ```
 This port must match the port put into the word document. 
+
+### Using a Proof of Concept Script 
+JohnHammond Premade Proof of Concept Code: https://github.com/JohnHammond/msdt-follina This code can be ran without any additional steps.  
 
 
 ## Further Reading 
